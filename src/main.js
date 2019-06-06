@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
+import './assets/css/common.css'
+
 import initEle from './plugins/element.js'
 initEle(Vue)
 
