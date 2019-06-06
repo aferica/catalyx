@@ -37,7 +37,7 @@ router.beforeEach((to, from, next) => {
   ) {
     // 登录后，跳到到当前页面
     next({
-      path: '/login',
+      name: 'login',
       query: { redirect: to.fullPath }
     })
   } else {
